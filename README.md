@@ -50,9 +50,9 @@ Here's `magic-querySelector` in action.
 
 <br>
 
-https://github.com/user-attachments/assets/eb0b6695-be60-4a6e-b935-5996b40c5d78
+https://raw.githubusercontent.com/igorskyflyer/npm-magic-queryselector/main/assets/with-magic.mp4
 
-<p><strong>Without</strong> <code>magic-queryselector</code></p>
+<p align="center"><strong>Without</strong> <code>magic-queryselector</code></p>
 
 <br>
 <br>

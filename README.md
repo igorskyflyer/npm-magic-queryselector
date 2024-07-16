@@ -131,9 +131,9 @@ If you want to use it with JavaScript, you don't need to do anything besides ins
 
 `main.js`
 ```js
-const video = document.querySelector("div#app > video"); // HTMLVideoElement | null
+const video = document.querySelector('div#app > video') // HTMLVideoElement | null
 
-const videos = document.querySelectorAll("div#app > video"); // NodeListOf<HTMLVideoElement>
+const videos = document.querySelectorAll('div#app > video') // NodeListOf<HTMLVideoElement>
 
 video?.src; // now we can access all <video> properties and methods
 videos[0].src; // 😀😀😀

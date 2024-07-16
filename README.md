@@ -147,7 +147,7 @@ This patch extends the default TypeScript support by inferring the types from th
 
 <br>
 
-Here's a table showing which selectors are supported and any caveats - if present.
+Here's a table showing which selectors are supported along with the return types for the given examples.
 
 | Selector | Example | Compatibility | Implementation | Note |
 |:---:|:---:|:---:|:---:|:---:|

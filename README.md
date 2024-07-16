@@ -149,17 +149,17 @@ This patch extends the default TypeScript support by inferring the types from th
 
 Here's a table showing which selectors are supported along with the return types for the given examples.
 
-| Selector | Example | Compatibility | Implementation | Note |
-|:---:|:---:|:---:|:---:|:---:|
-| Descendant | div video | ✅ | Patched | Returns the type of the selected element, `HTMLVideoElement`. <br><br> Warning: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`. |
-| Child | main > a, div#app > video | ✅ | Patched | Returns the type of the selected element, `HTMLAnchorElement` / `HTMLVideoElement`. |
-| Type + ID | div#app | ✅ | Patched | Returns the type of the selected element, `HTMLDivElement`. |
-| Type + Class | a.myLink | ✅ | Patched | Returns the type of the selected element, `HTMLAnchorElement`. |
-| Universal | * | ✅ | Native | Returns `HTMLElement`. |
-| Type | h2 | ✅ | Native | Returns the type of the selected element, `HTMLHeadingElement`. |
-| Class | .footer | ✅ | Native | Returns `HTMLElement`. |
-| ID | #share | ✅ | Native | Returns `HTMLElement`. |
-| Attribute | \[type="text"] | ✅ | Native | Returns `HTMLElement`. |
+| Selector | Example | Compatibility | Implementation | Before | After | Note |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Descendant | div video | ✅ | Patched | `HTMLElement` | `HTMLVideoElement` | Warning: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`. |
+| Child | main > a, div#app > video | ✅ | Patched | `HTMLElement` | `HTMLAnchorElement` / `HTMLVideoElement` | |
+| Type + ID | div#app | ✅ | Patched | `HTMLElement` | `HTMLDivElement`. |
+| Type + Class | a.myLink | ✅ | Patched | `HTMLElement` | `HTMLAnchorElement` |
+| Universal | * | ✅ | Native | `HTMLElement` | N/A |
+| Type | h2 | ✅ | Native | `HTMLHeadingElement` | N/A |
+| Class | .footer | ✅ | Native | `HTMLElement` | N/A |
+| ID | #share | ✅ | Native | `HTMLElement` | N/A |
+| Attribute | \[type="text"] | ✅ | Native | `HTMLElement` | N/A |
 
 ---
 

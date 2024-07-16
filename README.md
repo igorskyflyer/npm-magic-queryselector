@@ -59,7 +59,7 @@ Here's `magic-querySelector` in action.
 <br>
 
 <div align="center">
-	<video src="./assets/with-magic.mp4"></video>
+	https://raw.githubusercontent.com/igorskyflyer/npm-magic-queryselector/main/assets/with-magic.mp4
 	<p><strong>With</strong> <code>magic-queryselector</code></p>
 </div>
 

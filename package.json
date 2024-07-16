@@ -1,0 +1,43 @@
+{
+  "name": "@igor.dvlpr/magic-queryselector",
+  "version": "1.0.0",
+  "description": "🪄 A TypeScript-types patch for querySelector/querySelectorAll, make them return types you expect them to! 🔮",
+  "sideEffects": true,
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "pub": "npm publish --access public"
+  },
+  "keywords": [
+    "query",
+    "query-selector",
+    "querySelector",
+    "query-selector-all",
+    "querySelectorAll",
+    "js",
+    "javascript",
+    "types",
+    "patch",
+    "html",
+    "dom",
+    "document",
+    "igorskyflyer",
+    "igor.dvlpr"
+  ],
+  "license": "MIT",
+  "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+  "funding": "https://ko-fi.com/igorskyflyer",
+  "homepage": "https://github.com/igorskyflyer/npm-magic-queryselector",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorskyflyer/npm-magic-queryselector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorskyflyer/npm-magic-queryselector/issues"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  }
+}

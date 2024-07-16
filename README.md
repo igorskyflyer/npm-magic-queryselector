@@ -67,7 +67,7 @@ Including the `magic-queryselector` into your project depends on the language of
 
 Please see the appropriate section for your project.
 
-<br>
+---
 
 ### TypeScript
 

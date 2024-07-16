@@ -90,7 +90,7 @@ That's it! 🥳 You're all set up.
 <br>
 
 > [!NOTE]
-> TypeScript server sometimes likes to play games, if the patch doesn't work immediately, please restart TypeScript server or Visual Studio Code.
+> TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >
 
 ---
@@ -110,7 +110,7 @@ at the top of your entrypoint/main TypeScript file.
 <br>
 
 > [!NOTE]
-> TypeScript server sometimes likes to play games, if the patch doesn't work immediately, please restart TypeScript server or Visual Studio Code.
+> TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >
 
 ---

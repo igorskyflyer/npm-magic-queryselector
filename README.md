@@ -63,7 +63,8 @@ npm i -D "@igor.dvlpr/magic-queryselector"
 
 <br>
 
-Including the `magic-queryselector` into your project depends on the language of it. Please see the appropriate section for your project.
+Including the `magic-queryselector` into your project depends on the language of it.
+Please see the appropriate section for your project.
 
 <br>
 

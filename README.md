@@ -141,6 +141,28 @@ videos[0].src; // 😀😀😀
 
 ---
 
+## 🤖 Support
+
+This patch extends the default TypeScript support by inferring the types from the input selectors passed to `querySelector()` / `querySelectorAll()`.
+
+<br>
+
+Here's a table showing which selectors are supported and any caveats - if present.
+
+|   Selector   |          Example          | Supported |  Status |                                                                Note                                                                |
+|:------------:|:-------------------------:|:---------:|:-------:|:----------------------------------------------------------------------------------------------------------------------------------:|
+|  Descendant  |         div video         |     ✅     | Patched | Note: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`. |
+|     Child    | main &gt; a, div#app &gt; video |     ✅     | Patched |                                                                                                                                    |
+|   Type + ID  |          div#app          |     ✅     | Patched |                                                                                                                                    |
+| Type + Class |          a.myLink         |     ✅     | Patched |                                                                                                                                    |
+|   Universal  |             *             |     ✅     |  Native |                                                                                                                                    |
+|     Type     |             h2            |     ✅     |  Native |                                                                                                                                    |
+|     Class    |          .footer          |     ✅     |  Native |                                                                                                                                    |
+|      ID      |           #share          |     ✅     |  Native |                                                                                                                                    |
+|   Attribute  |       \[type="text"]       |     ✅     |  Native |                                                                                                                                    |
+
+---
+
 ## 📝 Changelog
 
 > 📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).

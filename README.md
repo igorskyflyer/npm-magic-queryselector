@@ -51,17 +51,15 @@ Here's `magic-querySelector` in action.
 <br>
 
 <div align="center">
-	<video src="./assets/without-magic.mp4"></video>
+
 	<p><strong>Without</strong> <code>magic-queryselector</code></p>
 </div>
 
 <br>
 <br>
 
-https://raw.githubusercontent.com/igorskyflyer/npm-magic-queryselector/main/assets/with-magic.mp4
-
 <div align="center">
-	
+
 	<p><strong>With</strong> <code>magic-queryselector</code></p>
 </div>
 

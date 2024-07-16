@@ -57,10 +57,9 @@ https://github.com/user-attachments/assets/eb0b6695-be60-4a6e-b935-5996b40c5d78
 <br>
 <br>
 
-<div align="center">
+https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 
-	<p><strong>With</strong> <code>magic-queryselector</code></p>
-</div>
+<p align="center"><strong>With</strong> <code>magic-queryselector</code></p>
 
 ---
 

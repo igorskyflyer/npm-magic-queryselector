@@ -151,7 +151,7 @@ Here's a table showing which selectors are supported and any caveats - if presen
 
 | Selector | Example | Compatibility | Implementation | Note |
 |:---:|:---:|:---:|:---:|:---:|
-| Descendant | div video | ✅ | Patched | Returns the type of the selected element, `HTMLVideoElement`. Note: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the ">". |
+| Descendant | div video | ✅ | Patched | Returns the type of the selected element, `HTMLVideoElement`. <br> Note: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`. |
 | Child | main > a, div#app > video | ✅ | Patched | Returns the type of the selected element, `HTMLAnchorElement` / `HTMLVideoElement`. |
 | Type + ID | div#app | ✅ | Patched | Returns the type of the selected element, `HTMLDivElement`. |
 | Type + Class | a.myLink | ✅ | Patched | Returns the type of the selected element, `HTMLAnchorElement`. |

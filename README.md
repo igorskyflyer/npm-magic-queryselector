@@ -119,6 +119,12 @@ at the top of your entrypoint/main TypeScript file.
 
 If you want to use it with JavaScript, you don't need to do anything besides installing the package.
 
+<br>
+
+> [!NOTE]
+> TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
+>
+
 ---
 
 ## ✨ Example

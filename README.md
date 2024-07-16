@@ -60,25 +60,35 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/jmap](https://www.npmjs.com/package/@igor.dvlpr/jmap)
 
-> __
+> _🕶️ Reads a JSON file into a Map. 🌻_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/extendable-string](https://www.npmjs.com/package/@igor.dvlpr/extendable-string)
 
-[]()
+> _🦀 ExtendableString allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings.. 🪀_
 
-> __
+<br>
 
-[]()
+[@igor.dvlpr/unc-path](https://www.npmjs.com/package/@igor.dvlpr/unc-path)
 
-> __
+> _🥽 Provides ways of parsing UNC paths and checking whether they are valid. 🎱_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/duoscribi](https://www.npmjs.com/package/@igor.dvlpr/duoscribi)
+
+> _✒ DúöScríbî allows you to convert letters with diacritics to regular letters. 🤓_
+
+<br>
+
+[@igor.dvlpr/node-clone-js](https://www.npmjs.com/package/@igor.dvlpr/node-clone-js)
+
+> _🧬 A lightweight JavaScript utility allowing deep copy-by-value of nested objects, arrays and arrays of objects. 🪁_
+
+<br>
 
 ---
 

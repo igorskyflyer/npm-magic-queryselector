@@ -32,16 +32,6 @@
 
 <br>
 
-## 🕵🏼 Usage
-
-Install it by executing:
-
-```shell
-npm i -D "@igor.dvlpr/magic-queryselector"
-```
-
-<br>
-
 ---
 
 ## 🎬 Demonstration
@@ -63,7 +53,61 @@ https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 
 ---
 
-## 🤹🏼 API
+## 🕵🏼 Usage
+
+Install it by executing:
+
+```shell
+npm i -D "@igor.dvlpr/magic-queryselector"
+```
+
+Including the `magic-queryselector` into your project depends on the language of it. Please see the appropriate section for your project.
+
+<br>
+
+### TypeScript
+
+If you want to use it with TypeScript, you need to do one of the following:
+
+<br>
+
+**Create a `d.ts` file**
+
+Create a `magic.d.ts` file in the root directory of your project and add the following code:
+
+```ts
+import '@igor.dvlpr/magic-queryselector'
+```
+
+That's it! 🥳 You're all set up.
+
+<br>
+
+> [!NOTE]
+> TypeScript server sometimes likes to play games, if the patch doesn't work immediately, please restart TypeScript server or Visual Studio Code.
+>
+
+---
+
+Add the code snippet
+
+```ts
+import '@igor.dvlpr/magic-queryselector'
+```
+
+at the top of your entrypoint/main TypeScript file.
+
+<br>
+
+> [!NOTE]
+> TypeScript server sometimes likes to play games, if the patch doesn't work immediately, please restart TypeScript server or Visual Studio Code.
+>
+
+---
+
+### JavaScript
+
+If you want to use it with JavaScript, you need to do one of the following:
 
 ---
 

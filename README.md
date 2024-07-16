@@ -50,10 +50,9 @@ Here's `magic-querySelector` in action.
 
 <br>
 
-<div align="center">
 https://github.com/user-attachments/assets/eb0b6695-be60-4a6e-b935-5996b40c5d78
+
 <p><strong>Without</strong> <code>magic-queryselector</code></p>
-</div>
 
 <br>
 <br>

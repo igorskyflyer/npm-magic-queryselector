@@ -46,9 +46,13 @@ npm i -D "@igor.dvlpr/magic-queryselector"
 
 ---
 
+## ✨ Example
+
+---
+
 ## 📝 Changelog
 
-> ✨ Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
+> 📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
 
 ---
 

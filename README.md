@@ -58,8 +58,10 @@ Here's `magic-querySelector` in action.
 <br>
 <br>
 
+https://raw.githubusercontent.com/igorskyflyer/npm-magic-queryselector/main/assets/with-magic.mp4
+
 <div align="center">
-	https://raw.githubusercontent.com/igorskyflyer/npm-magic-queryselector/main/assets/with-magic.mp4
+	
 	<p><strong>With</strong> <code>magic-queryselector</code></p>
 </div>
 

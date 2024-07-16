@@ -28,7 +28,8 @@
   "linter": {
     "rules": {
       "style": {
-        "noInferrableTypes": "off"
+        "noInferrableTypes": "off",
+        "useExportType": "off"
       },
       "suspicious": {
         "noExplicitAny": "off"

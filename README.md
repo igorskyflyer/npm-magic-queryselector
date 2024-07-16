@@ -42,11 +42,39 @@ npm i -D "@igor.dvlpr/magic-queryselector"
 
 <br>
 
+---
+
+## 🎬 Demonstration
+
+Here's `magic-querySelector` in action.
+
+<br>
+
+<div align="center">
+	<video src="./assets/without-magic.mp4"></video>
+	<p><strong>Without</strong> <code>magic-queryselector</code></p>
+</div>
+
+<br>
+<br>
+
+<div align="center">
+	<video src="./assets/with-magic.mp4"></video>
+	<p><strong>With</strong> <code>magic-queryselector</code></p>
+</div>
+
+---
+
 ## 🤹🏼 API
 
 ---
 
 ## ✨ Example
+
+`main.js`
+```
+
+```
 
 ---
 

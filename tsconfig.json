@@ -1,0 +1,17 @@
+{
+  "exclude": ["node_modules/**/*"],
+  "compilerOptions": {
+    "target": "ES6",
+    "declaration": true,
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declarationDir": "./dist",
+    "noEmitOnError": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true
+  }
+}

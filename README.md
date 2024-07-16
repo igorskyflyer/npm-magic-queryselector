@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-	🪄 A TypeScript-types patch for <code>querySelector()</code>/<code>querySelectorAll()</code>, make them return types you expect them! 🔮
+	🪄 A TypeScript-types patch for <code>querySelector()</code> / <code>querySelectorAll()</code>, make them return types you expect them! 🔮
 </p>
 
 <br>

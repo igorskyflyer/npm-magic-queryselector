@@ -149,17 +149,19 @@ This patch extends the default TypeScript support by inferring the types from th
 
 Here's a table showing which selectors are supported and any caveats - if present.
 
-|   Selector   |          Example          | Supported |  Status |                                                                Note                                                                |
-|:------------:|:-------------------------:|:---------:|:-------:|:----------------------------------------------------------------------------------------------------------------------------------:|
-|  Descendant  |         div video         |     ✅     | Patched | Note: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`. |
-|     Child    | main &gt; a, div#app &gt; video |     ✅     | Patched |                                                                                                                                    |
-|   Type + ID  |          div#app          |     ✅     | Patched |                                                                                                                                    |
-| Type + Class |          a.myLink         |     ✅     | Patched |                                                                                                                                    |
-|   Universal  |             *             |     ✅     |  Native |                                                                                                                                    |
-|     Type     |             h2            |     ✅     |  Native |                                                                                                                                    |
-|     Class    |          .footer          |     ✅     |  Native |                                                                                                                                    |
-|      ID      |           #share          |     ✅     |  Native |                                                                                                                                    |
-|   Attribute  |       \[type="text"]       |     ✅     |  Native |                                                                                                                                    |
+| Selector | Example | Compatibility | Implementation | Note |
+|:---:|:---:|:---:|:---:|:---:|
+| Descendant | div video | ✅ | Patched | Returns the type of the selected element, `HTMLVideoElement`.
+
+Note: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the ">". |
+| Child | main > a, div#app > video | ✅ | Patched | Returns the type of the selected element, `HTMLAnchorElement` / `HTMLVideoElement`. |
+| Type + ID | div#app | ✅ | Patched | Returns the type of the selected element, `HTMLDivElement`. |
+| Type + Class | a.myLink | ✅ | Patched | Returns the type of the selected element, `HTMLAnchorElement`. |
+| Universal | * | ✅ | Native | Returns `HTMLElement`. |
+| Type | h2 | ✅ | Native | Returns the type of the selected element, `HTMLHeadingElement`. |
+| Class | .footer | ✅ | Native | Returns `HTMLElement`. |
+| ID | #share | ✅ | Native | Returns `HTMLElement`. |
+| Attribute | \[type="text"] | ✅ | Native | Returns `HTMLElement`. |
 
 ---
 

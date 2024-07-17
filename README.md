@@ -198,7 +198,7 @@ The following table shows which selectors/combinators are supported along with t
 <br>
 
 ##### Implementation table
-| Selector / Combinator | Example     | Compatibility | Inference | Before / After                       |
+| Selector/Combinator | Example     | Compatibility | Inference | Before/After                       |
 |:----------------------:|:-----------:|:-------------:|:--------:|:------------------------------------:|
 | Descendant             | `div video` | ✅            | **Patched** | `Element`/`HTMLVideoElement`        |
 | Child                  | `main > a`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`       |

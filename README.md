@@ -80,15 +80,21 @@ Please see the appropriate section for your project.
 
 ### TypeScript
 
-If you want to use it with TypeScript, you need to do one of the following:
+If you want to use it with TypeScript, you need to copy the code snippet below
+
+```ts
+import '@igor.dvlpr/magic-queryselector'
+```
+
+and then do one of the following:
 
 <br>
 
 **1st method: create a `d.ts` file**
 
+Create a `magic.d.ts` file in the root directory of your project and add the snippet you copied:
 
-Create a `magic.d.ts` file in the root directory of your project and add the following code:
-
+`magic.d.ts`
 ```ts
 import '@igor.dvlpr/magic-queryselector'
 ```
@@ -106,13 +112,12 @@ That's it! 🥳 You're all set up.
 **2nd method: add a code snippet**
 
 
-Add the code snippet
+Add the code snippet you copied at the top of your entrypoint/main TypeScript file.
 
+`index.ts`
 ```ts
 import '@igor.dvlpr/magic-queryselector'
 ```
-
-at the top of your entrypoint/main TypeScript file.
 
 <br>
 

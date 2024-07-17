@@ -198,15 +198,15 @@ The following table shows which selectors/combinators are supported along with t
 ##### Table 1. implementation table
 | Selector / Combinator | Example | Compatibility | Inference | Before / After |
 |:---:|:---:|:---:|:---:|:---:|
-| Descendant | `div video` | ✅ | **Patched** | `HTMLElement` / `HTMLVideoElement` |
-| Child | `main > a` | ✅ | **Patched** | `HTMLElement` / `HTMLAnchorElement` | |
-| Type + ID | `div#app` | ✅ | **Patched** | `HTMLElement` / `HTMLDivElement` | |
-| Type + Class | `a.myLink` | ✅ | **Patched** | `HTMLElement` / `HTMLAnchorElement` | |
-| Universal | `*` | ✅ | *Native* | `HTMLElement` | |
+| Descendant | `div video` | ✅ | **Patched** | `Element` / `HTMLVideoElement` |
+| Child | `main > a` | ✅ | **Patched** | `Element` / `HTMLAnchorElement` | |
+| Type + ID | `div#app` | ✅ | **Patched** | `Element` / `HTMLDivElement` | |
+| Type + Class | `a.myLink` | ✅ | **Patched** | `Element` / `HTMLAnchorElement` | |
+| Universal | `*` | ✅ | *Native* | `Element` | |
 | Type | `h2` | ✅ | *Native* | `HTMLHeadingElement` | |
-| Class | `.footer` | ✅ | *Native* | `HTMLElement` | |
-| ID | `#share` | ✅ | *Native* | `HTMLElement` | |
-| Attribute | `[title]` | ✅ | *Native* | `HTMLElement` | |
+| Class | `.footer` | ✅ | *Native* | `Element` | |
+| ID | `#share` | ✅ | *Native* | `Element` | |
+| Attribute | `[title]` | ✅ | *Native* | `Element` | |
 
 <br>
 

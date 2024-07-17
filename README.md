@@ -181,13 +181,13 @@ This patch extends the default TypeScript support by inferring the types from th
 
 <br>
 
-The following table shows which selectors/combinators are supported along with the return types for the given examples.
-
-<br>
-
 > [!NOTE]
 > `querySelector()` will return the type listed here, while `querySelectorAll()` will return `NodeListOf<T>` of the same type.
 >
+
+<br>
+
+The following table shows which selectors/combinators are supported along with the return types for the given examples.
 
 <br>
 

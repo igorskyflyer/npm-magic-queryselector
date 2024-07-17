@@ -58,9 +58,7 @@ https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 <br>
 <br>
 
-> [!TIP]
-> Visual Studio Code theme used in the demonstration is [`Kai 🌊`](https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme).
->
+<blockquote align="center">Visual Studio Code theme used in the demonstration is <a href="https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme"><code>Kai 🌊</code></a>.</blockquote>
 
 ---
 

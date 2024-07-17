@@ -220,6 +220,10 @@ The following table shows which selectors/combinators are supported along with t
 >
 > ```css
 > div audio
+>
+> /* or */
+>
+> ul.my-things li
 > ```  
 >
 > Failure to do so will use the fallback and infer the type as `Element`.

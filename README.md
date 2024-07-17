@@ -1,4 +1,4 @@
-<h1 align="center">querySelector(🪄)</h1>
+<h1 align="center">querySelector( 🪄 )</h1>
 
 <br>
 
@@ -42,14 +42,23 @@ Here's `magic-querySelector` in action.
 
 https://github.com/user-attachments/assets/eb0b6695-be60-4a6e-b935-5996b40c5d78
 
-<p align="center"><strong>Without</strong> <code>magic-queryselector</code></p>
+<div align="center">
+	<strong>Without</strong> <code>magic-queryselector</code>
+</div>
 
 <br>
 <br>
 
 https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 
-<p align="center"><strong>With</strong> <code>magic-queryselector</code></p>
+<div align="center">
+	<strong>With</strong> <code>magic-queryselector</code>
+</div>
+
+<br>
+<br>
+
+Visual Studio Code theme used in the demonstration is [`Kai 🌊`](https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme).
 
 ---
 

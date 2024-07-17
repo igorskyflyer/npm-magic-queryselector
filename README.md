@@ -113,7 +113,7 @@ and then do one of the following:
 
 <br>
 
-**\[ 1st method ]**
+**\[ 1st option ]**
 #### Create a `d.ts` file (*recommended*)
 
 <br>
@@ -147,7 +147,7 @@ That's it! 🥳 You're all set up.
 
 <br>
 
-**\[ 2nd method ]**
+**\[ 2nd option ]**
 #### Add to the entrypoint
 
 
@@ -309,4 +309,4 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 ---
 
 ### 👨🏻‍💻 Author
-Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).div
+Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).

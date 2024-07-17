@@ -136,11 +136,15 @@ at the top of your entrypoint/main TypeScript file.
 `main.js`
 ```js
 const video = document.querySelector('div#app > video') // HTMLVideoElement | null
+const audios = document.querySelectorAll('div#app > audio') // NodeListOf<HTMLAudioElement>
 
-const videos = document.querySelectorAll('div#app > video') // NodeListOf<HTMLVideoElement>
+if(video) {
+	video.src = '<some_URL>' // now we can access all <video> properties and methods
+}
 
-video?.src; // now we can access all <video> properties and methods
-videos[0].src; // 😀😀😀
+if(audios.length > 0) {
+	audios[0].src = '<some_URL>' // 😀😀😀
+}
 ```
 
 ---

@@ -216,8 +216,12 @@ The following table shows which selectors/combinators are supported along with t
 <br>
 
 > [!IMPORTANT]
-> Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred correctly, e.g. the descendant combinator **MUST** be written as: `firstSelector secondSelector`, with **EXACTLY ONE** space *between* the two selectors.
->  
+> Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred correctly, e.g. the descendant combinator **MUST** be written as: `firstSelector secondSelector`, with **EXACTLY ONE** space *between* the two selectors, i.e.
+>
+> ```css
+> div audio
+> ```  
+>
 > Failure to do so will use the fallback and infer the type as `Element`.
 > 
 

@@ -75,7 +75,7 @@ If you want to use it with TypeScript, you need to do one of the following:
 
 ---
 
-**1. method: create a `d.ts` file**
+**1st method: create a `d.ts` file**
 
 
 Create a `magic.d.ts` file in the root directory of your project and add the following code:
@@ -94,7 +94,7 @@ That's it! 🥳 You're all set up.
 
 ---
 
-**2. method: add a code snippet**
+**2nd method: add a code snippet**
 
 
 Add the code snippet

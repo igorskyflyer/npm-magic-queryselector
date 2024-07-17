@@ -88,9 +88,9 @@ import '@igor.dvlpr/magic-queryselector'
 
 and then do one of the following:
 
----
+<br>
 
-**1st method: create a `d.ts` file**
+**1st method: create a `d.ts` file** (**recommended**)
 
 Create a `magic.d.ts` file in the root directory of your project and add the snippet you copied:
 

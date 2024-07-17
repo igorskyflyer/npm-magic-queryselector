@@ -39,7 +39,7 @@ type SelectorTagAttribute<Input extends string> =
       : HTMLElement
     : never
 
-type CombinatorAdjacentSiblingTag<Input extends string> =
+type CombinatorNextSiblingTag<Input extends string> =
   Input extends `${infer _First}+ ${infer Tag}`
     ? Tag extends keyof HTMLElementTagNameMap
       ? HTMLElementTagNameMap[Tag]
@@ -54,12 +54,12 @@ type CombinatorAdjacentSiblingTag<Input extends string> =
 // General Sibling Combinator
 // Syntax: element ~ sibling
 // Example: h1 ~ p
-// https://drafts.csswg.org/selectors/
+// https://www.w3.org/TR/selectors-4/
 type QuerySelector<Input extends string> =
   Input extends keyof HTMLElementTagNameMap
     ? HTMLElementTagNameMap[Input]
     : CombinatorChild<Input> extends never
-      ? CombinatorAdjacentSiblingTag<Input> extends never
+      ? CombinatorNextSiblingTag<Input> extends never
         ? CombinatorDescendant<Input> extends never
           ? SelectorTagClass<Input> extends never
             ? SelectorTagId<Input> extends never
@@ -69,7 +69,7 @@ type QuerySelector<Input extends string> =
               : SelectorTagId<Input>
             : SelectorTagClass<Input>
           : CombinatorDescendant<Input>
-        : CombinatorAdjacentSiblingTag<Input>
+        : CombinatorNextSiblingTag<Input>
       : CombinatorChild<Input>
 
 declare global {

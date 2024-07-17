@@ -177,12 +177,12 @@ if(audios.length > 0) {
 
 ## 🤖 Support
 
-This patch extends the default type inference of TypeScript by inferring the types from the input selectors passed to `querySelector()` / `querySelectorAll()`.
+This patch extends the default type inference of TypeScript by inferring the types from the input selectors/combinators passed to `querySelector()` / `querySelectorAll()`.
 
 <br>
 
 > [!NOTE]
-> `querySelector()` will return the type listed here, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
+> `querySelector()` will return the type listed below, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
 >
 
 <br>

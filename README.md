@@ -197,7 +197,7 @@ The following table shows which selectors/combinators are supported along with t
 
 <br>
 
-##### Table 1. implementation table
+##### Implementation table
 | Selector / Combinator | Example | Compatibility | Inference | Before / After |
 |:---:|:---:|:---:|:---:|:---:|
 | Descendant | `div video` | ✅ | **Patched** | `Element` / `HTMLVideoElement` |
@@ -209,6 +209,8 @@ The following table shows which selectors/combinators are supported along with t
 | Class | `.footer` | ✅ | *Native* | `Element` | |
 | ID | `#share` | ✅ | *Native* | `Element` | |
 | Attribute | `[title]` | ✅ | *Native* | `Element` | |
+
+<p align="center">Table 1. implementation table</p>
 
 <br>
 

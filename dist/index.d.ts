@@ -12,7 +12,7 @@ type CombinatorChild<Input extends string> =
       : never
 
 type CombinatorDescendant<Input extends string> =
-  Input extends `${infer FirstSelector} ${infer SecondSelector}`
+  Input extends `${infer _FirstSelector} ${infer SecondSelector}`
     ? SecondSelector extends keyof HTMLElementTagNameMap
       ? HTMLElementTagNameMap[SecondSelector]
       : HTMLElement
@@ -25,25 +25,51 @@ type SelectorTagClass<Input extends string> =
       : HTMLElement
     : never
 
-type SelectorTagId<K extends string> = K extends `${infer Tag}#${infer _Id}`
-  ? Tag extends keyof HTMLElementTagNameMap
-    ? HTMLElementTagNameMap[Tag]
-    : HTMLElement
-  : never
+type SelectorTagId<Input extends string> =
+  Input extends `${infer Tag}#${infer _Id}`
+    ? Tag extends keyof HTMLElementTagNameMap
+      ? HTMLElementTagNameMap[Tag]
+      : HTMLElement
+    : never
+
+type SelectorTagAttribute<Input extends string> =
+  Input extends `${infer Tag}[${infer _Attribute}]`
+    ? Tag extends keyof HTMLElementTagNameMap
+      ? HTMLElementTagNameMap[Tag]
+      : HTMLElement
+    : never
+
+type CombinatorAdjacentSiblingTag<Input extends string> =
+  Input extends `${infer _First}+ ${infer Tag}`
+    ? Tag extends keyof HTMLElementTagNameMap
+      ? HTMLElementTagNameMap[Tag]
+      : HTMLElement
+    : Input extends `${infer _First}+${infer Tag}`
+      ? Tag extends keyof HTMLElementTagNameMap
+        ? HTMLElementTagNameMap[Tag]
+        : HTMLElement
+      : never
 
 // TODO: implement all selectors (???)
+// General Sibling Combinator
+// Syntax: element ~ sibling
+// Example: h1 ~ p
 // https://drafts.csswg.org/selectors/
 type QuerySelector<Input extends string> =
   Input extends keyof HTMLElementTagNameMap
     ? HTMLElementTagNameMap[Input]
     : CombinatorChild<Input> extends never
-      ? CombinatorDescendant<Input> extends never
-        ? SelectorTagClass<Input> extends never
-          ? SelectorTagId<Input> extends never
-            ? HTMLElement
-            : SelectorTagId<Input>
-          : SelectorTagClass<Input>
-        : CombinatorDescendant<Input>
+      ? CombinatorAdjacentSiblingTag<Input> extends never
+        ? CombinatorDescendant<Input> extends never
+          ? SelectorTagClass<Input> extends never
+            ? SelectorTagId<Input> extends never
+              ? SelectorTagAttribute<Input> extends never
+                ? HTMLElement
+                : SelectorTagAttribute<Input>
+              : SelectorTagId<Input>
+            : SelectorTagClass<Input>
+          : CombinatorDescendant<Input>
+        : CombinatorAdjacentSiblingTag<Input>
       : CombinatorChild<Input>
 
 declare global {

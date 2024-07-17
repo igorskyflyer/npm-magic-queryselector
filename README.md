@@ -213,6 +213,7 @@ The following table shows which selectors/combinators are supported along with t
 | Type + Attribute    | `a[title]`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`  |
 | Descendant          | `div video` | ✅            | **Patched** | `Element`/`HTMLVideoElement`   |
 | Child               | `main > a`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`  |
+| Adjacent sibling   |`form + label`| ✅            | **Patched** | `Element`/`HTMLLabelElement`   |
 | Universal           | `*`         | ✅            | *Native*    | `Element`                      |
 | Type                | `h2`        | ✅            | *Native*    | `HTMLHeadingElement`           |
 | ID                  | `#share`    | ✅            | *Native*    | `Element`                      |

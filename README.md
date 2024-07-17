@@ -42,7 +42,7 @@
 	  - [add to the entrypoint](#add-to-the-entrypoint)
   - [JavaScript](#javascript)
 - [Implementation](#-implementation)
-  - [implementation table](#table-1-implementation-table)
+  - [API status table](#table-1-implementation-table)
 - [Examples](#-examples)
 - [Changelog](#-changelog)
 - [License](#-license)

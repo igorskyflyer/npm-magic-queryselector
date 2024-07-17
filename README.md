@@ -156,7 +156,7 @@ This patch extends the default TypeScript support by inferring the types from th
 
 Here's a table showing which selectors are supported along with the return types for the given examples.
 
-| Selector | Example | Compatibility | Implementation | Before / After |
+| Selector / Combinator | Example | Compatibility | Implementation | Before / After |
 |:---:|:---:|:---:|:---:|:---:|
 | Descendant | `div video` | ✅ | Patched | `HTMLElement` / `HTMLVideoElement` |
 | Child | `main > a` | ✅ | Patched | `HTMLElement` / `HTMLAnchorElement` | |
@@ -174,6 +174,12 @@ Here's a table showing which selectors are supported along with the return types
 > Inferring is a very complex and sensitive process, the selectors must follow a stric syntax to get their (return) types inferred, e.g. the child selector **MUST** be written as: `parent > child`, with **EXACTLY** one space *before* and *after* the `>`.
 >  
 > Failure to do so will infer the type as `HTMLElement`.
+> 
+
+<br>
+
+> [!NOTE]
+> Read more about [selector structure](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selector_structure) and [selectors and combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) on `MDN`.
 > 
 
 ---

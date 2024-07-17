@@ -131,6 +131,12 @@ That's it! 🥳 You're all set up.
 
 <br>
 
+> [!WARNING]
+> This assumes that a valid `tsconfig.json` is present in the root of your project.
+>
+
+<br>
+
 > [!NOTE]
 > TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >

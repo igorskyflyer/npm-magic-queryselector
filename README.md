@@ -189,7 +189,7 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 
 <br>
 
-The following table shows which selectors/combinators are supported along with the return types for the given examples.
+The following table shows which selectors/combinators are supported along with the inferred return types for the given examples.
 
 <br>
 

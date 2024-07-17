@@ -149,7 +149,7 @@ This patch extends the default TypeScript support by inferring the types from th
 
 Here's a table showing which selectors are supported along with the return types for the given examples.
 
-| Selector | Example | Compatibility | Implementation | Before/After |
+| Selector | Example | Compatibility | Implementation | Before / After |
 |:---:|:---:|:---:|:---:|:---:|
 | Descendant | `div video` | ✅ | Patched (*) | `HTMLElement`/`HTMLVideoElement` |
 | Child | `main > a`, `div#app > video` | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` / `HTMLVideoElement` | |

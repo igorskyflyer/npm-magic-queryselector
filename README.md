@@ -213,9 +213,9 @@ The following table shows which selectors/combinators are supported along with t
 <br>
 
 > [!IMPORTANT]
-> Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred, e.g. the child combinator **MUST** be written as: `parent > child`, with **EXACTLY** one space *before* and *after* the `>`.
+> Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred correctly, e.g. the descendant combinator **MUST** be written as: `firstSelector secondSelector`, with **EXACTLY ONE** space *between* the two selectors.
 >  
-> Failure to do so will infer the type as `Element`.
+> Failure to do so will use the fallback and infer the type as `Element`.
 > 
 
 <br>

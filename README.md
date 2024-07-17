@@ -74,7 +74,10 @@ npm i -D "@igor.dvlpr/magic-queryselector"
 
 Including the `magic-queryselector` into your project depends on the language of it.
 
-Please see the appropriate section for your project.
+Please see the appropriate section for your project:
+
+- [TypeScript](#typescript)
+- [JavaScript](#javascript)
 
 ---
 

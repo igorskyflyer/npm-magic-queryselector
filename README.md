@@ -185,7 +185,7 @@ The following table shows which selectors/combinators are supported along with t
 
 <br>
 
-> [!INFO]
+> [!NOTE]
 > `querySelector()` will return the type listed here, while `querySelectorAll()` will return `NodeListOf<T>` of the same type.
 >
 
@@ -205,7 +205,7 @@ The following table shows which selectors/combinators are supported along with t
 
 <br>
 
-> [!WARNING]
+> [!IMPORTANT]
 > Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred, e.g. the child combinator **MUST** be written as: `parent > child`, with **EXACTLY** one space *before* and *after* the `>`.
 >  
 > Failure to do so will infer the type as `HTMLElement`.

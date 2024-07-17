@@ -83,7 +83,7 @@ Please see the appropriate section for your project:
 
 ### TypeScript
 
-If you want to use it with TypeScript, you need to copy the following code:
+If you want to use it with TypeScript, you need to copy the following code
 
 ```ts
 import '@igor.dvlpr/magic-queryselector'

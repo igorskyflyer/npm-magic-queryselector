@@ -175,9 +175,9 @@ if(audios.length > 0) {
 
 ---
 
-## 🤖 Support
+## 🤖 Implementation
 
-This patch extends the default type inference of TypeScript by inferring the types from the input selectors/combinators passed to `querySelector()` / `querySelectorAll()`.
+This patch extends the default (*return*) type inference of TypeScript by inferring the types from the input `string` containing selectors/combinators passed to `querySelector()` / `querySelectorAll()`.
 
 <br>
 

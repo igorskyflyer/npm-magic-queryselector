@@ -31,8 +31,26 @@
 </div>
 
 <br>
+<br>
+
+## 📃 Table of contents
+
+- [Demonstration](#-demonstration)
+- [Usage](#-usage)
+  - [TypeScript](#typescript)
+	  - [create a d.ts file](#create-a-dts-file-recommended)
+	  - [add to the entrypoint](#add-to-the-entrypoint)
+  - [JavaScript](#javascript)
+- [Implementation](#-implementation)
+  - [implementation table](#table-1-implementation-table)
+- [Examples](#-examples)
+- [License](#-license)
+- [Related](#-related)
 
 ---
+
+<br>
+<br>
 
 ## 🎬 Demonstration
 
@@ -93,9 +111,8 @@ and then do one of the following:
 
 <br>
 
-**\[ 1st method ]**  
-
-**Create a `d.ts` file** (*recommended*)
+**\[ 1st method ]**
+#### Create a `d.ts` file (*recommended*)
 
 Create a `magic.d.ts` file in the root directory of your project and add the snippet you copied:
 
@@ -118,9 +135,10 @@ That's it! 🥳 You're all set up.
 
 ---
 
-**\[ 2nd method ]**  
+<br>
 
-**Add to the entrypoint**
+**\[ 2nd method ]**
+#### Add to the entrypoint
 
 
 Add the code snippet you copied to the top of your entrypoint/main TypeScript file.
@@ -157,24 +175,6 @@ import '@igor.dvlpr/magic-queryselector'
 
 ---
 
-## ✨ Example
-
-`main.js`
-```js
-const video = document.querySelector('div#app > video') // HTMLVideoElement | null
-const audios = document.querySelectorAll('div#app > audio') // NodeListOf<HTMLAudioElement>
-
-if(video) {
-  video.src = '<some_URL>' // now we can access all <video> properties and methods
-}
-
-if(audios.length > 0) {
-  audios[0].src = '<some_URL>' // 😀😀😀
-}
-```
-
----
-
 ## 🤖 Implementation
 
 This patch extends the default (*return*) type inference of TypeScript by inferring the types from the input `string` containing selectors/combinators passed to `querySelector()` / `querySelectorAll()`.
@@ -193,6 +193,7 @@ The following table shows which selectors/combinators are supported along with t
 
 <br>
 
+##### Table 1. implementation table
 | Selector / Combinator | Example | Compatibility | Inference | Before / After |
 |:---:|:---:|:---:|:---:|:---:|
 | Descendant | `div video` | ✅ | **Patched** | `HTMLElement` / `HTMLVideoElement` |
@@ -217,7 +218,25 @@ The following table shows which selectors/combinators are supported along with t
 
 > [!NOTE]
 > Read more about [selector structure](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selector_structure) and [selectors and combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) on `MDN`.
-> 
+>
+
+---
+
+## ✨ Examples
+
+`main.js`
+```js
+const video = document.querySelector('div#app > video') // HTMLVideoElement | null
+const audios = document.querySelectorAll('div#app > audio') // NodeListOf<HTMLAudioElement>
+
+if(video) {
+  video.src = '<some_URL>' // now we can access all <video> properties and methods
+}
+
+if(audios.length > 0) {
+  audios[0].src = '<some_URL>' // 😀😀😀
+}
+```
 
 ---
 

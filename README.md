@@ -44,6 +44,7 @@
 - [Implementation](#-implementation)
   - [implementation table](#table-1-implementation-table)
 - [Examples](#-examples)
+- [Changelog](#-changelog)
 - [License](#-license)
 - [Related](#-related)
 - [Author](#-author)

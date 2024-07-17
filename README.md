@@ -213,6 +213,7 @@ The following table shows which selectors/combinators are supported along with t
 <div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
 
 <br>
+<br>
 
 > [!IMPORTANT]
 > Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred correctly, e.g. the descendant combinator **MUST** be written as: `firstSelector secondSelector`, with **EXACTLY ONE** space *between* the two selectors.

@@ -1,6 +1,6 @@
 {
   "name": "@igor.dvlpr/magic-queryselector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🪄 A TypeScript-types patch for querySelector/querySelectorAll, make them return types you expect them to! 🔮",
   "sideEffects": true,
   "types": "./dist/index.d.ts",

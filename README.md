@@ -137,7 +137,7 @@ That's it! 🥳 You're all set up.
 
 <br>
 
-> [!NOTE]
+> [!TIP]
 > TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >
 
@@ -160,7 +160,7 @@ import '@igor.dvlpr/magic-queryselector'
 
 <br>
 
-> [!NOTE]
+> [!TIP]
 > TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >
 

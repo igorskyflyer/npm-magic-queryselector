@@ -4,6 +4,13 @@
 
 <br>
 
+## v1.0.1
+
+<p align="right"><em>17-Jul-2024</em></p>
+
+- **📜 docs**: update integration options for TypeScript
+
+<br>
 <br>
 
 ## v1.0.0

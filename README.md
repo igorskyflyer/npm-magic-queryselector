@@ -171,9 +171,9 @@ Here's a table showing which selectors are supported along with the return types
 <br>
 
 > [!WARNING]
-> Inferring is a very complex and sensitive process, the selectors must follow a stric syntax to get their return types inferred, e.g. the child selector **MUST** be written as: `parent > child`, with **EXACTLY** one space *before* and *after* the `>`.
+> Inferring is a very complex and sensitive process, the selectors must follow a stric syntax to get their (return) types inferred, e.g. the child selector **MUST** be written as: `parent > child`, with **EXACTLY** one space *before* and *after* the `>`.
 >  
-> On the contrary, the inferred type will be `HTMLElement`.
+> Failure to do so will infer the type as `HTMLElement`.
 > 
 
 ---

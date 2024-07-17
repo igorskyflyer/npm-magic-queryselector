@@ -116,6 +116,14 @@ and then do one of the following:
 **\[ 1st method ]**
 #### Create a `d.ts` file (*recommended*)
 
+<br>
+
+> [!WARNING]
+> This method requires a valid `tsconfig.json` file to be present in the root of your project.
+>
+
+<br>
+
 Create a `magic.d.ts` file in the root directory of your project and add the snippet you copied:
 
 <br>
@@ -128,12 +136,6 @@ import '@igor.dvlpr/magic-queryselector'
 <br>
 
 That's it! 🥳 You're all set up.
-
-<br>
-
-> [!WARNING]
-> This method requires a valid `tsconfig.json` file to be present in the root of your project.
->
 
 <br>
 

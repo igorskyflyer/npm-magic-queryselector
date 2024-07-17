@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 <br>
 <br>
 
-<blockquote align="center">Visual Studio Code theme used in the demonstration is <a href="https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme"><code>Kai 🌊</code></a>.</blockquote>
+<blockquote align="center">Visual Studio Code theme used in the demonstration is <a href="https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme"><code>Kai 🌊</code> <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12"></a>.</blockquote>
 
 ---
 
@@ -196,7 +196,7 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 >
 > For brevity this table only shows the types for `querySelector()`.
 >
-> Read more about TypeScript's implementation of the [types for `querySelector()` and `querySelectorAll()`](https://www.typescriptlang.org/docs/handbook/dom-manipulation.html#the-queryselector-and-queryselectorall-methods).
+> Read more about TypeScript's implementation of the [types for `querySelector()` and `querySelectorAll()`](https://www.typescriptlang.org/docs/handbook/dom-manipulation.html#the-queryselector-and-queryselectorall-methods) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg).
 >
 
 <br>
@@ -240,7 +240,7 @@ The following table shows which selectors/combinators are supported along with t
 <br>
 
 > [!NOTE]
-> Read more about [selector structure](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selector_structure) and [selectors and combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) on `MDN`.
+> Read more about [selector structure](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selector_structure) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) and [selectors and combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) on `MDN`.
 >
 
 ---

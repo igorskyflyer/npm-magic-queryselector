@@ -210,7 +210,7 @@ The following table shows which selectors/combinators are supported along with t
 | ID | `#share` | ✅ | *Native* | `Element` | |
 | Attribute | `[title]` | ✅ | *Native* | `Element` | |
 
-<div align="center"><em>Table 1. implementation table</em></div>
+<div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
 
 <br>
 

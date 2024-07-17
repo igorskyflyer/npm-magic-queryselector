@@ -116,7 +116,12 @@ at the top of your entrypoint/main TypeScript file.
 
 ### JavaScript
 
-If you want to use it with JavaScript, you don't need to do anything besides installing the package.
+
+<br>
+
+> [!TIP]
+> If you want to use it with JavaScript, you don't need to do anything besides installing the package.
+>
 
 <br>
 

@@ -115,7 +115,7 @@ That's it! 🥳 You're all set up.
 
 ---
 
-**\[ 2nd method ]  
+**\[ 2nd method ]**  
 
 **Add to the entrypoint**
 

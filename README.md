@@ -184,6 +184,8 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 > [!NOTE]
 > `querySelector()` will return the type listed below, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
 >
+> For brevity this table only shows the types for `querySelector()`.
+>
 > Read more about TypeScript's implementation of the [types for `querySelector()` and `querySelectorAll()`](https://www.typescriptlang.org/docs/handbook/dom-manipulation.html#the-queryselector-and-queryselectorall-methods).
 >
 

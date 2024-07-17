@@ -158,8 +158,8 @@ Here's a table showing which selectors are supported along with the return types
 
 | Selector | Example | Compatibility | Implementation | Before / After |
 |:---:|:---:|:---:|:---:|:---:|
-| Descendant | `div video` | ✅ | Patched (*) | `HTMLElement` / `HTMLVideoElement` |
-| Child | `main > a` | ✅ | Patched | `HTMLElement` / `HTMLAnchorElement` | |
+| Descendant | `div video` | ✅ | Patched | `HTMLElement` / `HTMLVideoElement` |
+| Child | `main > a` | ✅ | Patched (*) | `HTMLElement` / `HTMLAnchorElement` | |
 | Type + ID | `div#app` | ✅ | Patched | `HTMLElement` / `HTMLDivElement` | |
 | Type + Class | `a.myLink` | ✅ | Patched | `HTMLElement` / `HTMLAnchorElement` | |
 | Universal | `*` | ✅ | Native | `HTMLElement` | |
@@ -170,7 +170,7 @@ Here's a table showing which selectors are supported along with the return types
 
 <br>
 
-**\* Warning**: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`.
+**\* Warning**: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with **EXACTLY** one space *before* and *after* the `>`.
 
 ---
 

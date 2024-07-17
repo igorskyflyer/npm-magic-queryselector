@@ -96,7 +96,6 @@ That's it! 🥳 You're all set up.
 
 **2. method: add a code snippet**
 
-<br>
 
 Add the code snippet
 
@@ -139,11 +138,11 @@ const video = document.querySelector('div#app > video') // HTMLVideoElement | nu
 const audios = document.querySelectorAll('div#app > audio') // NodeListOf<HTMLAudioElement>
 
 if(video) {
-	video.src = '<some_URL>' // now we can access all <video> properties and methods
+  video.src = '<some_URL>' // now we can access all <video> properties and methods
 }
 
 if(audios.length > 0) {
-	audios[0].src = '<some_URL>' // 😀😀😀
+  audios[0].src = '<some_URL>' // 😀😀😀
 }
 ```
 

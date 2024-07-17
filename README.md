@@ -208,15 +208,16 @@ The following table shows which selectors/combinators are supported along with t
 ##### Implementation table
 | Selector/Combinator | Example     | Compatibility | Inference | Before/After                       |
 |:----------------------:|:-----------:|:-------------:|:--------:|:------------------------------------:|
-| Descendant             | `div video` | ✅            | **Patched** | `Element`/`HTMLVideoElement`        |
-| Child                  | `main > a`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`       |
-| Type + ID              | `div#app`   | ✅            | **Patched** | `Element`/`HTMLDivElement`          |
-| Type + Class           | `a.myLink`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`       |
-| Universal              | `*`         | ✅            | *Native* | `Element`                             |
-| Type                   | `h2`        | ✅            | *Native* | `HTMLHeadingElement`                  |
-| Class                  | `.footer`   | ✅            | *Native* | `Element`                             |
-| ID                     | `#share`    | ✅            | *Native* | `Element`                             |
-| Attribute              | `[title]`   | ✅            | *Native* | `Element`                             |
+| Descendant             | `div video` | ✅            | **Patched** | `Element`/`HTMLVideoElement`       |
+| Child                  | `main > a`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`      |
+| Type + ID              | `div#app`   | ✅            | **Patched** | `Element`/`HTMLDivElement`         |
+| Type + Class           | `a.myLink`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`      |
+| Type + Attribute       | `a[title]`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`      |
+| Universal              | `*`         | ✅            | *Native* | `Element`                              |
+| Type                   | `h2`        | ✅            | *Native* | `HTMLHeadingElement`                   |
+| Class                  | `.footer`   | ✅            | *Native* | `Element`                              |
+| ID                     | `#share`    | ✅            | *Native* | `Element`                              |
+| Attribute              | `[title]`   | ✅            | *Native* | `Element`                              |
 
 <div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
 

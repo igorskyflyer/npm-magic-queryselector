@@ -1,4 +1,4 @@
-<h1 align="center">🪄 querySelector(): <code>magic</code></h1>
+<h1 align="center">querySelector(🪄)</h1>
 
 <br>
 

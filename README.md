@@ -88,11 +88,13 @@ import '@igor.dvlpr/magic-queryselector'
 
 and then do one of the following:
 
-<br>
+---
 
 **1st method: create a `d.ts` file**
 
 Create a `magic.d.ts` file in the root directory of your project and add the snippet you copied:
+
+<br>
 
 `magic.d.ts`
 ```ts
@@ -113,6 +115,8 @@ That's it! 🥳 You're all set up.
 
 
 Add the code snippet you copied at the top of your entrypoint/main TypeScript file.
+
+<br>
 
 `index.ts`
 ```ts

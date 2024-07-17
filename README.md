@@ -73,7 +73,7 @@ Please see the appropriate section for your project.
 
 If you want to use it with TypeScript, you need to do one of the following:
 
----
+<br>
 
 **1st method: create a `d.ts` file**
 

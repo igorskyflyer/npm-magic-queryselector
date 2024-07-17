@@ -132,7 +132,7 @@ That's it! 🥳 You're all set up.
 <br>
 
 > [!WARNING]
-> This assumes that a valid `tsconfig.json` is present in the root of your project.
+> This method requires a valid `tsconfig.json` file to be present in the root of your project.
 >
 
 <br>

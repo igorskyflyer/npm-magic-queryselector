@@ -149,9 +149,9 @@ This patch extends the default TypeScript support by inferring the types from th
 
 Here's a table showing which selectors are supported along with the return types for the given examples.
 
-| Selector | Example | Compatibility | Implementation | Before/After | Note |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Descendant | div video | ✅ | Patched | `HTMLElement`/`HTMLVideoElement` | Warning: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`. |
+| Selector | Example | Compatibility | Implementation | Before/After |
+|:---:|:---:|:---:|:---:|:---:|
+| Descendant | div video | ✅ | Patched (*) | `HTMLElement`/`HTMLVideoElement` |
 | Child | main > a, div#app > video | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` / `HTMLVideoElement` | |
 | Type + ID | div#app | ✅ | Patched | `HTMLElement`/`HTMLDivElement` | |
 | Type + Class | a.myLink | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` | |
@@ -160,6 +160,10 @@ Here's a table showing which selectors are supported along with the return types
 | Class | .footer | ✅ | Native | `HTMLElement` | |
 | ID | #share | ✅ | Native | `HTMLElement` | |
 | Attribute | \[type="text"] | ✅ | Native | `HTMLElement` | |
+
+<br>
+
+**\* Warning**: inferring is very sensitive, the selector must follow the syntax: `parent > child`, with one space before and after the `>`.
 
 ---
 

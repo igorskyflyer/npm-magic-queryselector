@@ -286,8 +286,6 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 > _🧬 A lightweight JavaScript utility allowing deep copy-by-value of nested objects, arrays and arrays of objects. 🪁_
 
-<br>
-
 ---
 
 ### 👨🏻‍💻 Author

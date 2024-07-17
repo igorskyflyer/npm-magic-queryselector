@@ -90,7 +90,7 @@ and then do one of the following:
 
 <br>
 
-**\[1st method]**  
+**\[ 1st method ]**  
 
 **Create a `d.ts` file** (*recommended*)
 
@@ -115,7 +115,7 @@ That's it! 🥳 You're all set up.
 
 ---
 
-**\[2nd method]  
+**\[ 2nd method ]  
 
 **Add to the entrypoint**
 

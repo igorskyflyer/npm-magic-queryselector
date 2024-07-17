@@ -152,14 +152,14 @@ Here's a table showing which selectors are supported along with the return types
 | Selector | Example | Compatibility | Implementation | Before/After |
 |:---:|:---:|:---:|:---:|:---:|
 | Descendant | div video | ✅ | Patched (*) | `HTMLElement`/`HTMLVideoElement` |
-| Child | main > a, div#app > video | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` / `HTMLVideoElement` | |
-| Type + ID | div#app | ✅ | Patched | `HTMLElement`/`HTMLDivElement` | |
-| Type + Class | a.myLink | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` | |
-| Universal | * | ✅ | Native | `HTMLElement` | |
-| Type | h2 | ✅ | Native | `HTMLHeadingElement` | |
-| Class | .footer | ✅ | Native | `HTMLElement` | |
-| ID | #share | ✅ | Native | `HTMLElement` | |
-| Attribute | \[type="text"] | ✅ | Native | `HTMLElement` | |
+| Child | `main > a`, `div#app > video` | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` / `HTMLVideoElement` | |
+| Type + ID | `div#app` | ✅ | Patched | `HTMLElement`/`HTMLDivElement` | |
+| Type + Class | `a.myLink` | ✅ | Patched | `HTMLElement`/`HTMLAnchorElement` | |
+| Universal | `*` | ✅ | Native | `HTMLElement` | |
+| Type | `h2` | ✅ | Native | `HTMLHeadingElement` | |
+| Class | `.footer` | ✅ | Native | `HTMLElement` | |
+| ID | `#share` | ✅ | Native | `HTMLElement` | |
+| Attribute | `[title]` | ✅ | Native | `HTMLElement` | |
 
 <br>
 

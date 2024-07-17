@@ -210,7 +210,7 @@ The following table shows which selectors/combinators are supported along with t
 | ID | `#share` | ✅ | *Native* | `Element` | |
 | Attribute | `[title]` | ✅ | *Native* | `Element` | |
 
-<p align="center">Table 1. implementation table</p>
+<div align="center"><em>Table 1. implementation table</em></div>
 
 <br>
 
@@ -291,4 +291,4 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 ---
 
 ### 👨🏻‍💻 Author
-Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
+Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).div

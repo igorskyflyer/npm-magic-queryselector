@@ -103,6 +103,8 @@ Create a `magic.d.ts` file in the root directory of your project and add the sni
 import '@igor.dvlpr/magic-queryselector'
 ```
 
+<br>
+
 That's it! 🥳 You're all set up.
 
 <br>

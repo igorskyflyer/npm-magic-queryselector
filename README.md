@@ -90,7 +90,9 @@ and then do one of the following:
 
 <br>
 
-**1st method: create a `d.ts` file** (**recommended**)
+**\[1st method]**  
+**Create a `d.ts` file**  
+(**recommended**)
 
 Create a `magic.d.ts` file in the root directory of your project and add the snippet you copied:
 
@@ -111,10 +113,11 @@ That's it! 🥳 You're all set up.
 
 ---
 
-**2nd method: add a code snippet**
+**\[2nd method]  
+**Add to the entrypoint**
 
 
-Add the code snippet you copied at the top of your entrypoint/main TypeScript file.
+Add the code snippet you copied to the top of your entrypoint/main TypeScript file.
 
 <br>
 

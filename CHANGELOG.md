@@ -8,9 +8,9 @@
 
 <p align="right"><em>20-Jul-2024</em></p>
 
-- **🪅 feat**: implement **column combinator for tags**, i.e. support for `table||td` ([W3 draft](https://drafts.csswg.org/selectors/#the-column-combinator) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg))
-- **🪅 feat**: implement **subsequent-sibling combinator for tags**, i.e. support for `h1 ~ pre`
-- **🪅 feat**: implement **`:root` pseudo-class**, i.e. support for `:root`
+- **🪅 feat**: implement the **column combinator for tags**, i.e. support for `table||td` ([W3 draft](https://drafts.csswg.org/selectors/#the-column-combinator) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg))
+- **🪅 feat**: implement the **subsequent-sibling combinator for tags**, i.e. support for `h1 ~ pre`
+- **🪅 feat**: implement the **`:root` pseudo-class**, i.e. support for `:root`
 
 <br>
 
@@ -23,8 +23,8 @@
 
 <p align="right"><em>18-Jul-2024</em></p>
 
-- **🪅 feat**: implement **next/adjacent sibling combinator for tags**, i.e. support for `div + h1`
-- **🪅 feat**: implement **attribute selector for tags**, i.e. support for `a[title]`
+- **🪅 feat**: implement the **next/adjacent sibling combinator for tags**, i.e. support for `div + h1`
+- **🪅 feat**: implement the **attribute selector for tags**, i.e. support for `a[title]`
 
 <br>
 

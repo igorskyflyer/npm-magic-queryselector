@@ -4,6 +4,21 @@
 
 <br>
 
+## v1.2.0
+
+<p align="right"><em>20-Jul-2024</em></p>
+
+- **🪅 feat**: implement **column combinator for tags**, i.e. support for `table||td`, [W3 draft](https://drafts.csswg.org/selectors/#the-column-combinator) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg)
+- **🪅 feat**: implement **subsequent-sibling combinator for tags**, i.e. support for `h1 ~ pre`
+- **🪅 feat**: implement **`:root` pseudo-class**, i.e. support for `:root`
+
+<br>
+
+- **💻 dev**: major internal refactor
+
+<br>
+<br>
+
 ## v1.1.0
 
 <p align="right"><em>18-Jul-2024</em></p>

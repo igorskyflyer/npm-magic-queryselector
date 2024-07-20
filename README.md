@@ -191,22 +191,6 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 
 <br>
 
-> [!IMPORTANT]
-> Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred correctly, e.g. the descendant combinator **MUST** be written as: `firstSelector secondSelector`, with **EXACTLY ONE** space *between* the two selectors, i.e.
->
-> ```css
-> div audio
->
-> /* or */
->
-> ul.my-things li
-> ```  
->
-> Failure to do so will use the fallback and infer the type as `Element`.
-> 
-
-<br>
-
 > [!NOTE]
 > Read more about [selector structure](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selector_structure) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) and [selectors and combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) on `MDN`.
 >

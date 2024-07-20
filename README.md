@@ -254,7 +254,7 @@ if(audios.length > 0) {
 
 ## 📝 Changelog
 
-> 📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
+📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
 
 ---
 

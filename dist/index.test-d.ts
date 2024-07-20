@@ -35,7 +35,7 @@ if (tagIdSingle) {
 // only one element is allowed per ID
 
 // querySelector(tag[attribute])
-const imgAttributeSingle = document.querySelector('  img[data-url]')
+const imgAttributeSingle = document.querySelector('     img[data-url]')
 
 if (imgAttributeSingle) {
   expectTypeOf(imgAttributeSingle).toMatchTypeOf<HTMLImageElement>

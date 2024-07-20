@@ -173,13 +173,13 @@ import '@igor.dvlpr/magic-queryselector'
 
 <br>
 
-> [!TIP]
+> [!NOTE]
 > If you want to use it with JavaScript, you don't need to do anything besides installing the package.
 >
 
 <br>
 
-> [!NOTE]
+> [!TIP]
 > TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >
 

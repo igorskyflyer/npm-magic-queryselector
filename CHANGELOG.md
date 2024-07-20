@@ -8,7 +8,7 @@
 
 <p align="right"><em>20-Jul-2024</em></p>
 
-- **🪅 feat**: support both leading/trailing whitespace for selectors and combinators
+- **🪅 feat**: support both leading and trailing whitespace for selectors and combinators
 - **🪅 feat**: implement the **column combinator for tags**, i.e. support for `table || td` ([W3 draft](https://drafts.csswg.org/selectors/#the-column-combinator) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg))
 - **🪅 feat**: implement the **subsequent-sibling combinator for tags**, i.e. support for `h1 ~ pre`
 - **🪅 feat**: implement the **`:root` pseudo-class**, i.e. support for `:root`

@@ -191,40 +191,6 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 
 <br>
 
-> [!NOTE]
-> `querySelector()` will return the type listed below, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
->
-> For brevity this table only shows the types for `querySelector()`.
->
-> Read more about TypeScript's implementation of the [types for `querySelector()` and `querySelectorAll()`](https://www.typescriptlang.org/docs/handbook/dom-manipulation.html#the-queryselector-and-queryselectorall-methods) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg).
->
-
-<br>
-
-The following table shows which selectors/combinators are supported along with the inferred return types for the given examples.
-
-<br>
-
-##### Implementation table
-| Selector/Combinator | Example     | Compatibility | Inference   | Before/After                   |
-|:-------------------:|:-----------:|:-------------:|:-----------:|:------------------------------:|
-| Type + ID           | `div#app`   | ✅            | **Patched** | `Element`/`HTMLDivElement`     |
-| Type + Class        | `a.myLink`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`  |
-| Type + Attribute    | `a[title]`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`  |
-| Descendant          | `div video` | ✅            | **Patched** | `Element`/`HTMLVideoElement`   |
-| Child               | `main > a`  | ✅            | **Patched** | `Element`/`HTMLAnchorElement`  |
-| Adjacent sibling   |`form + label`| ✅            | **Patched** | `Element`/`HTMLLabelElement`   |
-| Universal           | `*`         | ✅            | *Native*    | `Element`                      |
-| Type                | `h2`        | ✅            | *Native*    | `HTMLHeadingElement`           |
-| ID                  | `#share`    | ✅            | *Native*    | `Element`                      |
-| Class               | `.footer`   | ✅            | *Native*    | `Element`                      |
-| Attribute           | `[title]`   | ✅            | *Native*    | `Element`                      |
-
-<div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
-
-<br>
-<br>
-
 > [!IMPORTANT]
 > Inferring is a very complex and sensitive process, the selectors/combinators must follow a strict syntax to get their (return) types inferred correctly, e.g. the descendant combinator **MUST** be written as: `firstSelector secondSelector`, with **EXACTLY ONE** space *between* the two selectors, i.e.
 >
@@ -244,6 +210,49 @@ The following table shows which selectors/combinators are supported along with t
 > [!NOTE]
 > Read more about [selector structure](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selector_structure) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) and [selectors and combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) on `MDN`.
 >
+
+<br>
+
+> [!NOTE]
+> `querySelector()` will return the type listed in the table below, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
+>
+> For brevity this table only shows the types for `querySelector()`.
+>
+> Read more about TypeScript's implementation of the [types for `querySelector()` and `querySelectorAll()`](https://www.typescriptlang.org/docs/handbook/dom-manipulation.html#the-queryselector-and-queryselectorall-methods) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg).
+>
+
+<br>
+
+The following table shows which selectors/combinators are supported along with the inferred return types for the given examples.
+
+<br>
+
+##### Implementation table
+|Selector/Combinator |Example      |Compatibility | Inference   |Before/After                    |
+|:------------------:|:-----------:|:------------:|:-----------:|:------------------------------:|
+|Type + ID           |`div#app`    | ✅           | **Patched** |`Element`/`HTMLDivElement`      |
+|Type + Class        |`a.myLink`   | ✅           | **Patched** |`Element`/`HTMLAnchorElement`   |
+|Type + Attribute    |`a[title]`   | ✅           | **Patched** |`Element`/`HTMLAnchorElement`   |
+|Descendant          |`div video`  | ✅           | **Patched** |`Element`/`HTMLVideoElement`    |
+|Child               |`main > a`   | ✅           | **Patched** |`Element`/`HTMLAnchorElement`   |
+|Next-sibling        |`div + span` | ✅           | **Patched** |`Element`/`HTMLSpanElement`     |
+|Subsequent-sibling  |`h1 ~ pre`   | ✅           | **Patched** |`Element`/`HTMLPreElement`      |
+|Pseudo-class :root  |`:root`      | ✅           | **Patched** |`Element`/`HTMLHtmlElement`     |
+|Column (1)          |`col \|\| td`| ✅           | **Patched** |`Element`/`HTMLTableCellElement`|
+|Universal           |`*`          | &mdash;      | *Native*    |`Element`/`Element`             |
+|Type                |`li`         | &mdash;      | *Native*    |`HTMLLIElement`/`HTMLLIElement` |
+|ID                  |`#share`     | &mdash;      | *Native*    |`Element`/`Element`             |
+|Class               |`.footer`    | &mdash;      | *Native*    |`Element`/`Element`             |
+|Attribute           |`[title]`    | &mdash;      | *Native*    |`Element`/`Element`             |
+
+<div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
+
+<br>
+<br>
+
+***(1)*** The column combinator is a highly-experimental upcoming combinator *"that is placed between two CSS selectors. It matches only those elements matched by the second selector that belong to the column elements matched by the first."* (source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Column_combinator) <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12">)
+
+<br>
 
 ---
 

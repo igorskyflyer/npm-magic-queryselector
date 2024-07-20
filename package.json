@@ -1,10 +1,10 @@
 {
   "name": "@igor.dvlpr/magic-queryselector",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "🪄 A TypeScript-types patch for querySelector/querySelectorAll, make them return types you expect them to! 🔮",
   "sideEffects": true,
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": ["dist/*.d.ts"],
   "scripts": {
     "pub": "npm publish --access public"
   },
@@ -37,7 +37,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
+    "@igor.dvlpr/common-types": "^1.0.0",
     "@types/node": "^20.14.11",
+    "expect-type": "^0.19.0",
     "typescript": "^5.5.3"
   }
 }

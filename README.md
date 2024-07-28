@@ -216,7 +216,7 @@ The following table shows which selectors/combinators are supported along with t
 |Next-sibling        |`div + span` | ✅           | **Patched** |`Element`/`HTMLSpanElement`     |
 |Subsequent-sibling  |`h1 ~ pre`   | ✅           | **Patched** |`Element`/`HTMLPreElement`      |
 |Pseudo-class :root  |`:root`      | ✅           | **Patched** |`Element`/`HTMLHtmlElement`     |
-|Column (1)          |`col \|\| td`| ✅           | **Patched** |`Element`/`HTMLTableCellElement`|
+|Column [^1]          |`col \|\| td`| ✅           | **Patched** |`Element`/`HTMLTableCellElement`|
 |Universal           |`*`          | &mdash;      | *Native*    |`Element`/`Element`             |
 |Type                |`li`         | &mdash;      | *Native*    |`HTMLLIElement`/`HTMLLIElement` |
 |ID                  |`#share`     | &mdash;      | *Native*    |`Element`/`Element`             |
@@ -228,7 +228,7 @@ The following table shows which selectors/combinators are supported along with t
 <br>
 <br>
 
-***(1)*** The column combinator is a highly-experimental upcoming combinator *"that is placed between two CSS selectors. It matches only those elements matched by the second selector that belong to the column elements matched by the first."* (source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Column_combinator) <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12">)
+***[^1]*** The column combinator is a highly-experimental upcoming combinator *"that is placed between two CSS selectors. It matches only those elements matched by the second selector that belong to the column elements matched by the first."* (source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Column_combinator) <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12">)
 
 <br>
 

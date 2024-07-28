@@ -3,31 +3,31 @@
 <br>
 
 <p align="center">
-	🪄 A TypeScript-types patch for <code>querySelector()</code> / <code>querySelectorAll()</code>, make them return types you expect them to! 🔮
+  🪄 A TypeScript-types patch for <code>querySelector()</code> / <code>querySelectorAll()</code>, make them return types you expect them to! 🔮
 </p>
 
 <br>
 <br>
 
 <div align="center">
-	<blockquote>
-		<br>
-		<h4>💖 Support further development</h4>
-		<span>I work hard for every project, including this one and your support means a lot to me!
-		<br>
-		Consider buying me a coffee. ☕
-		<br>
-		<strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-		<br>
-		<br>
-		<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-		<br>
-		<br>
-		<a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-		<br>
-		<br>
-		<br>
-	</blockquote>
+  <blockquote>
+    <br>
+    <h4>💖 Support further development</h4>
+    <span>I work hard for every project, including this one and your support means a lot to me!
+    <br>
+    Consider buying me a coffee. ☕
+    <br>
+    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
+    <br>
+    <br>
+    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
+    <br>
+    <br>
+    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
+    <br>
+    <br>
+    <br>
+  </blockquote>
 </div>
 
 <br>
@@ -38,8 +38,8 @@
 - [Demonstration](#-demonstration)
 - [Usage](#-usage)
   - [TypeScript](#typescript)
-	  - [Create a d.ts file](#create-a-dts-file-recommended)
-	  - [Add to the entrypoint](#add-to-the-entrypoint)
+    - [Create a d.ts file](#create-a-dts-file-recommended)
+    - [Add to the entrypoint](#add-to-the-entrypoint)
   - [JavaScript](#javascript)
 - [Implementation](#-implementation)
   - [API status table](#implementation-table)
@@ -63,7 +63,7 @@ Here's `magic-querySelector` in action.
 https://github.com/user-attachments/assets/eb0b6695-be60-4a6e-b935-5996b40c5d78
 
 <div align="center">
-	<strong>Without</strong> <code>magic-queryselector</code>
+  <strong>Without</strong> <code>magic-queryselector</code>
 </div>
 
 <br>
@@ -72,7 +72,7 @@ https://github.com/user-attachments/assets/eb0b6695-be60-4a6e-b935-5996b40c5d78
 https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 
 <div align="center">
-	<strong>With</strong> <code>magic-queryselector</code>
+  <strong>With</strong> <code>magic-queryselector</code>
 </div>
 
 <br>
@@ -254,7 +254,7 @@ if(audios.length > 0) {
 
 ## 📝 Changelog
 
-📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
+📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
 
 ---
 
@@ -295,6 +295,8 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 > _🧬 A lightweight JavaScript utility allowing deep copy-by-value of nested objects, arrays and arrays of objects. 🪁_
 
 ---
+
+<br>
 
 ### 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).

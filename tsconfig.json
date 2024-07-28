@@ -1,17 +1,17 @@
 {
-  "exclude": ["node_modules/**/*"],
-  "compilerOptions": {
-    "target": "ES6",
-    "skipLibCheck": true,
-    "lib": ["DOM", "ESNext"],
-    "forceConsistentCasingInFileNames": true,
-    "noEmitOnError": true,
-    "strict": true,
-    "noUnusedLocals": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "noUnusedParameters": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true
-  }
+    "exclude": ["node_modules/**/*"],
+    "compilerOptions": {
+        "target": "ES6",
+        "skipLibCheck": true,
+        "lib": ["DOM", "ESNext"],
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "noUnusedParameters": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true
+    }
 }

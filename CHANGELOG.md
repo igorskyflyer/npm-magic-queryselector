@@ -18,9 +18,6 @@
 - **✨ feat**: implement the **column combinator for tags**, i.e. support for `table || td` ([W3 draft](https://drafts.csswg.org/selectors/#the-column-combinator) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg))
 - **✨ feat**: implement the **subsequent-sibling combinator for tags**, i.e. support for `h1 ~ pre`
 - **✨ feat**: implement the **`:root` pseudo-class**, i.e. support for `:root`
-
-<br>
-
 - **💻 dev**: major internal refactor
 
 <br>
@@ -30,9 +27,6 @@
 
 - **✨ feat**: implement the **next/adjacent sibling combinator for tags**, i.e. support for `div + h1`
 - **✨ feat**: implement the **attribute selector for tags**, i.e. support for `a[title]`
-
-<br>
-
 - **💻 dev**: refactor `CombinatorDescendant` type
 
 <br>

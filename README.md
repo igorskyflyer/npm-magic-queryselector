@@ -103,7 +103,7 @@ Please see the appropriate section for your project:
 
 ### TypeScript
 
-If you want to use it with TypeScript, you need to import this module. This augments the global `Document` and `Element` interfaces with smarter return types.  
+If you want to use it with TypeScript, you need to import this module. This augments the global `Document` and `Element` interfaces so `querySelector()` and `querySelectorAll()` return the correct element type based on your selector.
 
 To do so, copy the following code:
 
@@ -212,6 +212,8 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 > #### API behavior
 >
 > `querySelector()` will return the type listed in the table below, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
+>
+> **Unsupported or unrecognised selectors** will gracefully fall back to the generic `HTMLElement` type, ensuring your code still type‑checks while signalling that no specific element type could be inferred.
 >
 > For brevity this table only shows the types for `querySelector()`.
 >

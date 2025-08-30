@@ -21,7 +21,7 @@
     - [Add to the entrypoint](#add-to-the-entrypoint)
   - [JavaScript](#javascript)
 - [API](#-api)
-  - [API status table](#implementation-table)
+  - [Implementation table](#implementation-table)
 - [Examples](#️-examples)
 - [Changelog](#-changelog)
 - [Support](#-support)

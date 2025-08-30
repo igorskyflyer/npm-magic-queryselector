@@ -35,6 +35,7 @@
 ## 🤖 Features
 
 - 🧠 Smart IntelliSense - auto‑suggests valid `CSS selectors` and infers exact element types
+- 📌 Works with literal selector strings to power IntelliSense
 - 🪄 Type‑driven safety - catches invalid selectors at compile time in TypeScript
 - 🏷 Tag name mapping - resolves HTML tag names to their correct HTMLElement types
 - 🎯 Selector parsing - supports `tag`, `class`, `ID`, and `attribute` selectors in type space
@@ -102,13 +103,15 @@ Please see the appropriate section for your project:
 
 ### TypeScript
 
-If you want to use it with TypeScript, you need to copy the following code
+If you want to use it with TypeScript, you need to import this module. This augments the global `Document` and `Element` interfaces with smarter return types.  
+
+To do so, copy the following code:
 
 ```ts
 import '@igorskyflyer/magic-queryselector'
 ```
 
-and then do one of the following:
+and then do one of the either options:
 
 <br>
 
@@ -117,7 +120,8 @@ and then do one of the following:
 
 <br>
 
-> [!WARNING]
+> ### ⚠️ WARNING
+>
 > This method requires a valid `tsconfig.json` file to be present in the root of your project.
 >
 
@@ -138,8 +142,11 @@ That's it! 🥳 You're all set up.
 
 <br>
 
-> [!TIP]
-> TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
+> ### 💡 TIP
+>
+> #### Language Server
+>
+> TypeScript's language server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript language server or Visual Studio Code.
 >
 
 ---
@@ -161,8 +168,11 @@ import '@igorskyflyer/magic-queryselector'
 
 <br>
 
-> [!TIP]
-> TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
+> ### 💡 TIP
+>
+> #### Language Server
+>
+> TypeScript's language server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript language server or Visual Studio Code.
 >
 
 ---
@@ -172,14 +182,20 @@ import '@igorskyflyer/magic-queryselector'
 
 <br>
 
-> [!NOTE]
+> ### ℹ️ NOTE
+>
+> #### Easy install
+>
 > If you want to use it with JavaScript, you don't need to do anything besides installing the package.
 >
 
 <br>
 
-> [!TIP]
-> TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
+> ### 💡 TIP
+>
+> #### Language Server
+>
+> TypeScript's language server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript language server or Visual Studio Code.
 >
 
 <br>
@@ -191,7 +207,10 @@ This patch extends the default (*return*) type inference of TypeScript by inferr
 
 <br>
 
-> [!NOTE]
+> ### ℹ️ NOTE
+>
+> #### API behavior
+>
 > `querySelector()` will return the type listed in the table below, e.g. `HTMLDivElement`, while `querySelectorAll()` will return `NodeListOf<T>` of the same type, e.g. `NodeListOf<HTMLDivElement>`.
 >
 > For brevity this table only shows the types for `querySelector()`.

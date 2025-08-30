@@ -241,6 +241,7 @@ The following table shows which selectors/combinators are supported along with t
 |ID                  |`#share`     | &mdash;      | *Native*    |`Element`/`Element`             |
 |Class               |`.footer`    | &mdash;      | *Native*    |`Element`/`Element`             |
 |Attribute           |`[title]`    | &mdash;      | *Native*    |`Element`/`Element`             |
+|Unresolved          |`<any>`      | &mdash;      | *Native*    |`Element`/`Element`             |
 
 <div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
 

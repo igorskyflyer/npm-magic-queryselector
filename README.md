@@ -92,9 +92,7 @@ https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 
 <br>
 
-Including the `magic-queryselector` into your project depends on the language of it.
-
-Please see the appropriate section for your project:
+Including the `magic-queryselector` into your project depends on the language of it. Please see the appropriate section for your project:
 
 - [TypeScript](#typescript)
 - [JavaScript](#javascript)

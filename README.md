@@ -63,6 +63,7 @@ npm i @igorskyflyer/magic-queryselector
 ```
 
 <br>
+<br>
 
 Here's `magic-querySelector` in action.
 
@@ -229,7 +230,6 @@ The following table shows which selectors/combinators are supported along with t
 
 ***(1)*** The column combinator is a highly-experimental upcoming combinator *"that is placed between two CSS selectors. It matches only those elements matched by the second selector that belong to the column elements matched by the first."* (source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Column_combinator) <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12">)
 
-
 <br>
 <br>
 
@@ -248,7 +248,6 @@ if(audios.length > 0) {
   audios[0].src = '<some_URL>' // 😀😀😀
 }
 ```
-
 
 <br>
 <br>
@@ -310,7 +309,7 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 <br>
 
-[@igorskyflyer/node-clone-js](https://www.npmjs.com/package/@igorskyflyer/node-clone-js)
+[@igorskyflyer/clone](https://www.npmjs.com/package/@igorskyflyer/clone)
 
 > _🧬 A lightweight JavaScript utility allowing deep copy-by-value of nested objects, arrays and arrays of objects. 🪁_
 

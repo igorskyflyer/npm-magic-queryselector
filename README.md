@@ -142,7 +142,7 @@ That's it! You're all set up. 🥳
 
 > ### 💡 TIP
 >
-> #### Language Server
+> #### Language server
 >
 > TypeScript's language server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript language server or Visual Studio Code.
 >
@@ -168,7 +168,7 @@ import '@igorskyflyer/magic-queryselector'
 
 > ### 💡 TIP
 >
-> #### Language Server
+> #### Language server
 >
 > TypeScript's language server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript language server or Visual Studio Code.
 >
@@ -191,7 +191,7 @@ import '@igorskyflyer/magic-queryselector'
 
 > ### 💡 TIP
 >
-> #### Language Server
+> #### Language server
 >
 > TypeScript's language server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript language server or Visual Studio Code.
 >

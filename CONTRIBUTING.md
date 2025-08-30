@@ -1,6 +1,6 @@
-# 🫱🏼‍🫲🏼 Contributing to {{project}}
+# 🫱🏼‍🫲🏼 Contributing to Magic querySelector
 
-Thank you for considering a contribution to {{project}}! Whether you're fixing bugs, suggesting improvements, writing docs, or sharing ideas – your input helps the project grow and evolve.
+Thank you for considering a contribution to Magic querySelector! Whether you're fixing bugs, suggesting improvements, writing docs, or sharing ideas – your input helps the project grow and evolve.
 
 ---
 
@@ -52,7 +52,7 @@ Contributions to documentation, examples, and config files are always appreciate
 
 ## 💖 Thank You!
 
-Your contribution helps maintain and improve {{project}} — thank you for helping make it better!  
+Your contribution helps maintain and improve Magic querySelector — thank you for helping make it better!  
 Check out [`SUPPORT.md`](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/SUPPORT.md) if you need help or want to sponsor its development.
 
 <br>

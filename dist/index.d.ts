@@ -1,6 +1,6 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
-import type { Trim } from '@igor.dvlpr/common-types'
+import type { Trim } from '@igorskyflyer/common-types'
 
 // TODO: implement all selectors (???)
 // https://www.w3.org/TR/selectors-4/

@@ -136,7 +136,7 @@ import '@igorskyflyer/magic-queryselector'
 
 <br>
 
-That's it! 🥳 You're all set up.
+That's it! You're all set up. 🥳
 
 <br>
 

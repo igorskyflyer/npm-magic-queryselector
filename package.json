@@ -47,12 +47,14 @@
     "bugs": {
         "url": "https://github.com/igorskyflyer/npm-magic-queryselector/issues"
     },
+    "dependencies": {
+        "@igorskyflyer/common-types": "^1.4.0"
+    },
     "devDependencies": {
         "@biomejs/biome": "^2.2.2",
         "@igorskyflyer/biome-config": "^2.1.0",
         "@types/node": "^22.18.0",
         "typescript": "^5.9.2",
-        "@igorskyflyer/common-types": "^1.4.0",
         "expect-type": "^1.2.2"
     },
     "publishConfig": {

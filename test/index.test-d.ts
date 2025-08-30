@@ -1,6 +1,7 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
 import { expectTypeOf } from 'expect-type'
+import '../dist/index.d.ts'
 
 // querySelector(:root)
 const htmlSingle = document.querySelector('  :root ')

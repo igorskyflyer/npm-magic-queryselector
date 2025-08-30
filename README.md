@@ -1,60 +1,68 @@
-<h1 align="center">querySelector( 🪄 )</h1>
-
-<br>
-
-<p align="center">
-  🪄 A TypeScript-types patch for <code>querySelector()</code> / <code>querySelectorAll()</code>, make them return types you expect them to! 🔮
-</p>
-
-<br>
-<br>
-
 <div align="center">
-  <blockquote>
-    <br>
-    <h4>💖 Support further development</h4>
-    <span>I work hard for every project, including this one and your support means a lot to me!
-    <br>
-    Consider buying me a coffee. ☕
-    <br>
-    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-    <br>
-    <br>
-    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-    <br>
-    <br>
-    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-    <br>
-    <br>
-    <br>
-  </blockquote>
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-magic-queryselector/main/media/magic-queryselector.png" alt="Icon of Magic querySelector" width="256" height="256">
+  <h1>Magic querySelector</h1>
 </div>
 
 <br>
+
+<h4 align="center">
+  🪄 A TypeScript-types patch for <code>querySelector()</code> / <code>querySelectorAll()</code>, make them return types you expect them to! 🔮
+</h4>
+
+<br>
 <br>
 
-## 📃 Table of contents
+## 📃 Table of Contents
 
-- [Demonstration](#-demonstration)
+- [Features](#-features)
 - [Usage](#-usage)
   - [TypeScript](#typescript)
     - [Create a d.ts file](#create-a-dts-file-recommended)
     - [Add to the entrypoint](#add-to-the-entrypoint)
   - [JavaScript](#javascript)
-- [Implementation](#-implementation)
+- [API](#-api)
   - [API status table](#implementation-table)
-- [Examples](#-examples)
+- [Examples](#️-examples)
 - [Changelog](#-changelog)
+- [Support](#-support)
 - [License](#-license)
 - [Related](#-related)
 - [Author](#-author)
 
----
+<br>
+<br>
+
+## 🤖 Features
+
+- 🧠 Smart IntelliSense - auto‑suggests valid `CSS selectors` and infers exact element types
+- 🪄 Type‑driven safety - catches invalid selectors at compile time in TypeScript
+- 🏷 Tag name mapping - resolves HTML tag names to their correct HTMLElement types
+- 🎯 Selector parsing - supports `tag`, `class`, `ID`, and `attribute` selectors in type space
+- 🔗 Combinator awareness - understands `descendant`, `child`, `sibling`, and `column combinators`
+- 🌱 Pseudo‑class support - recognizes `:root` and maps it to the `<html>` element type
+- 📜 Global augmentation - extends `Document` and `Element` to return precise types for `querySelector`/`querySelectorAll`
+- ⚡ Zero runtime cost - all logic is purely in TypeScript types, no JS overhead
 
 <br>
 <br>
 
-## 🎬 Demonstration
+## 🕵🏼 Usage
+
+Install it by executing any of the following, depending on your preferred package manager:
+
+```bash
+pnpm add @igorskyflyer/magic-queryselector
+```
+
+```bash
+yarn add @igorskyflyer/magic-queryselector
+```
+
+```bash
+npm i @igorskyflyer/magic-queryselector
+```
+
+<br>
 
 Here's `magic-querySelector` in action.
 
@@ -80,16 +88,6 @@ https://github.com/user-attachments/assets/2251724d-98d7-4deb-8a82-8b4f0a6a6e31
 
 <blockquote align="center">Visual Studio Code theme used in the demonstration is <a href="https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme"><code>Kai 🌊</code></a> <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12">.</blockquote>
 
----
-
-## 🕵🏼 Usage
-
-Install it by executing:
-
-```shell
-npm i -D "@igor.dvlpr/magic-queryselector"
-```
-
 <br>
 
 Including the `magic-queryselector` into your project depends on the language of it.
@@ -106,7 +104,7 @@ Please see the appropriate section for your project:
 If you want to use it with TypeScript, you need to copy the following code
 
 ```ts
-import '@igor.dvlpr/magic-queryselector'
+import '@igorskyflyer/magic-queryselector'
 ```
 
 and then do one of the following:
@@ -130,7 +128,7 @@ Create a `magic.d.ts` file in the root directory of your project and add the sni
 
 `magic.d.ts`
 ```ts
-import '@igor.dvlpr/magic-queryselector'
+import '@igorskyflyer/magic-queryselector'
 ```
 
 <br>
@@ -157,7 +155,7 @@ Add the code snippet you copied to the top of your entrypoint/main TypeScript fi
 
 `index.ts`
 ```ts
-import '@igor.dvlpr/magic-queryselector'
+import '@igorskyflyer/magic-queryselector'
 ```
 
 <br>
@@ -183,9 +181,10 @@ import '@igor.dvlpr/magic-queryselector'
 > TypeScript server sometimes likes to play games, if the patch doesn't work immediately please restart TypeScript server or Visual Studio Code.
 >
 
----
+<br>
+<br>
 
-## 🤖 Implementation
+## 🤹🏼 API
 
 This patch extends the default (*return*) type inference of TypeScript by inferring the types from the input `string` containing selectors/combinators passed to `querySelector()` / `querySelectorAll()`.
 
@@ -230,11 +229,11 @@ The following table shows which selectors/combinators are supported along with t
 
 ***(1)*** The column combinator is a highly-experimental upcoming combinator *"that is placed between two CSS selectors. It matches only those elements matched by the second selector that belong to the column elements matched by the first."* (source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Column_combinator) <img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg" alt="An external link" width="12" height="12">)
 
+
+<br>
 <br>
 
----
-
-## ✨ Examples
+## 🗒️ Examples
 
 `main.js`
 ```js
@@ -250,53 +249,74 @@ if(audios.length > 0) {
 }
 ```
 
----
+
+<br>
+<br>
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/CHANGELOG.md).
 
----
+<br>
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-magic-queryselector/blob/main/LICENSE).
 
----
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
 
 ## 🧬 Related
 
-[@igor.dvlpr/jmap](https://www.npmjs.com/package/@igor.dvlpr/jmap)
+[@igorskyflyer/jmap](https://www.npmjs.com/package/@igorskyflyer/jmap)
 
 > _🕶️ Reads a JSON file into a Map. 🌻_
 
 <br>
 
-[@igor.dvlpr/extendable-string](https://www.npmjs.com/package/@igor.dvlpr/extendable-string)
+[@igorskyflyer/extendable-string](https://www.npmjs.com/package/@igorskyflyer/extendable-string)
 
 > _🦀 ExtendableString allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings.. 🪀_
 
 <br>
 
-[@igor.dvlpr/unc-path](https://www.npmjs.com/package/@igor.dvlpr/unc-path)
+[@igorskyflyer/unc-path](https://www.npmjs.com/package/@igorskyflyer/unc-path)
 
 > _🥽 Provides ways of parsing UNC paths and checking whether they are valid. 🎱_
 
 <br>
 
-[@igor.dvlpr/duoscribi](https://www.npmjs.com/package/@igor.dvlpr/duoscribi)
+[@igorskyflyer/duoscribi](https://www.npmjs.com/package/@igorskyflyer/duoscribi)
 
 > _✒ DúöScríbî allows you to convert letters with diacritics to regular letters. 🤓_
 
 <br>
 
-[@igor.dvlpr/node-clone-js](https://www.npmjs.com/package/@igor.dvlpr/node-clone-js)
+[@igorskyflyer/node-clone-js](https://www.npmjs.com/package/@igorskyflyer/node-clone-js)
 
 > _🧬 A lightweight JavaScript utility allowing deep copy-by-value of nested objects, arrays and arrays of objects. 🪁_
 
----
-
+<br>
+<br>
 <br>
 
-### 👨🏻‍💻 Author
+## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).

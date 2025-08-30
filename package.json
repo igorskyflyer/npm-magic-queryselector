@@ -1,31 +1,43 @@
 {
-    "name": "@igor.dvlpr/magic-queryselector",
-    "version": "1.2.0",
+    "name": "@igorskyflyer/magic-queryselector",
+    "version": "1.3.0",
     "description": "🪄 A TypeScript-types patch for querySelector/querySelectorAll, make them return types you expect them to! 🔮",
     "sideEffects": true,
+    "engines": {
+        "node": ">=22.0"
+    },
+    "type": "module",
     "types": "./dist/index.d.ts",
-    "files": ["./dist/index.d.ts"],
+    "files": [
+        "dist"
+    ],
     "scripts": {
-        "pub": "npm publish --access public"
+        "pub": "git push origin main --tags"
     },
     "keywords": [
-        "query",
-        "query-selector",
-        "querySelector",
-        "query-selector-all",
-        "querySelectorAll",
-        "js",
-        "javascript",
-        "types",
-        "patch",
+        "typescript",
+        "css",
+        "css-selectors",
+        "type-inference",
+        "intellisense",
+        "dom",
+        "queryselector",
+        "queryselectorall",
         "html",
+        "html-element",
+        "type-safety",
+        "compile-time",
+        "selector-parsing",
+        "developer-experience",
+        "autocomplete",
         "dom",
         "document",
-        "igorskyflyer",
-        "igor.dvlpr"
+        "patch",
+        "igor dimitrijević",
+        "igorskyflyer"
     ],
     "license": "MIT",
-    "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+    "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
     "funding": "https://ko-fi.com/igorskyflyer",
     "homepage": "https://github.com/igorskyflyer/npm-magic-queryselector",
     "repository": {
@@ -36,11 +48,15 @@
         "url": "https://github.com/igorskyflyer/npm-magic-queryselector/issues"
     },
     "devDependencies": {
-        "@biomejs/biome": "^1.8.3",
-        "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.0",
-        "@igor.dvlpr/common-types": "^1.3.0",
-        "@types/node": "^20.14.13",
-        "expect-type": "^0.19.0",
-        "typescript": "^5.5.4"
-    }
+        "@biomejs/biome": "^2.2.2",
+        "@igorskyflyer/biome-config": "^2.1.0",
+        "@types/node": "^22.18.0",
+        "typescript": "^5.9.2",
+        "@igorskyflyer/common-types": "^1.4.0",
+        "expect-type": "^1.2.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "packageManager": "pnpm@10.15.0"
 }

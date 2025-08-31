@@ -236,11 +236,11 @@ The following table shows which selectors/combinators are supported along with t
 |Subsequent-sibling  |`h1 ~ pre`   | ✅           | **Patched** |`Element`/`HTMLPreElement`      |
 |Pseudo-class :root  |`:root`      | ✅           | **Patched** |`Element`/`HTMLHtmlElement`     |
 |Column (1)          |`col \|\| td`| ✅           | **Patched** |`Element`/`HTMLTableCellElement`|
-|Universal           |`*`          | &mdash;      | *Native*    |`Element`/`Element`             |
 |Type                |`li`         | &mdash;      | *Native*    |`HTMLLIElement`/`HTMLLIElement` |
 |ID                  |`#share`     | &mdash;      | *Native*    |`Element`/`Element`             |
 |Class               |`.footer`    | &mdash;      | *Native*    |`Element`/`Element`             |
 |Attribute           |`[title]`    | &mdash;      | *Native*    |`Element`/`Element`             |
+|Universal           |`*`          | &mdash;      | *Native*    |`Element`/`Element`             |
 |Unresolved          |`<any>`      | &mdash;      | *Native*    |`Element`/`Element`             |
 
 <div align="center"><em><strong>Table 1.</strong> implementation table</em></div>
